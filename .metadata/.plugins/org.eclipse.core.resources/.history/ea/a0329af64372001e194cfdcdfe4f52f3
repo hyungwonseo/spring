@@ -1,0 +1,8 @@
+package com.dw.firstapp;
+
+public class HelloWorldConfiguration {
+	
+	public String name() {
+		return "This is bean method";
+	}
+}
