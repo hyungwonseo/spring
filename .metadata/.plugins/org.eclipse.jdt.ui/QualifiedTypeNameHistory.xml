@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.ServletRegistrationBean"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game.MarioGame"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game.GameRunner"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -19,11 +18,9 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game.SuperContraGame"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game.GamingConsole"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game.PacmanGame"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.HelloWorldConfiguration"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.game2.GamingConsole"/>
@@ -40,4 +37,16 @@
     <fullyQualifiedTypeName name="com.dw.firstapp.DI.Dependency1"/>
     <fullyQualifiedTypeName name="com.dw.firstapp.DI.Dependency2"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.dw.employeeManagement.model.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
 </qualifiedTypeNameHistroy>
