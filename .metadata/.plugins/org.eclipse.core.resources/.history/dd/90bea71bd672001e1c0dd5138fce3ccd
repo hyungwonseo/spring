@@ -1,0 +1,36 @@
+package com.dw.firstapp;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+
+record Person (String name, int age, Address address) {};
+record Address (String firstLine, String city) {};
+
+@Configuration
+public class HelloWorldConfiguration {
+	
+	@Bean
+	public String name() {
+		return "This is bean method";
+	}
+	@Bean
+	public int age() {
+		return 20;
+	}
+	@Bean
+	public Person person() {
+		return new Person("Tom", 25);
+	}
+	@Bean
+	@Primary
+	public Person person2() {
+		return new Person("Steve", 17);
+	}
+	@Bean(name = "addressBaker")
+	public Address address() {
+		return new Address("Baker Street", "London");
+	}
+	
+}

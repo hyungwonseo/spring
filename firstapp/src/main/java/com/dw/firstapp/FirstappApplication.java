@@ -14,7 +14,7 @@ public class FirstappApplication {
 		
 		var context = 
 				new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
-		System.out.println(context.getBean(Person.class));
+		System.out.println(context.getBean("personParams"));
 	}
 	
 	@Bean
