@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Bean;
 public class FirstappApplication {
 
 	public static void main(String[] args) {
-		var context = SpringApplication.run(FirstappApplication.class, args);
+		SpringApplication.run(FirstappApplication.class, args);
 		
-//		var context = 
-//				new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
-		System.out.println(context.getBean("age"));
+		var context = 
+				new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+		System.out.println(context.getBean(Person.class));
 	}
 	
 	@Bean
