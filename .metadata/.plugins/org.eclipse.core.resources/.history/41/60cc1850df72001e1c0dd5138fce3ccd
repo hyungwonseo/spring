@@ -1,0 +1,8 @@
+package com.dw.firstapp.DI;
+
+public class MyBusiness {
+	
+	public String toString() {
+		return "";
+	}
+}

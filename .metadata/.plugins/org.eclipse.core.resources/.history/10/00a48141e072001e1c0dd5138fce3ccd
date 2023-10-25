@@ -1,0 +1,13 @@
+package com.dw.firstapp.DI;
+
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan
+public class DIApplication {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

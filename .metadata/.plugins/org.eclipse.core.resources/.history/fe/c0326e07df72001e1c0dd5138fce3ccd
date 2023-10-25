@@ -1,0 +1,10 @@
+package com.dw.firstapp.DI;
+
+public class DIApplication {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
