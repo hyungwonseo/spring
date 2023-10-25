@@ -1,0 +1,10 @@
+package com.dw.employeeManagement.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "emplyees")
+public class Employee {
+
+}
