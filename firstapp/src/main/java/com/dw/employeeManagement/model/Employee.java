@@ -23,6 +23,11 @@ public class Employee {
 	
 	@Column(name = "email")
 	private String email;
+	
+	// Entity에는 반드시 기본생성자가 필요하다!!! (Java의 Reflection 때문)
+	public Employee() {
+		
+	}
 
 	public Employee(long id, String firstName, String lastName, String email) {
 		super();
