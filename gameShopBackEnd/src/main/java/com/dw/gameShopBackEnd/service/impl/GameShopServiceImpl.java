@@ -6,18 +6,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.dw.gameShopBackEnd.model.Game;
+import com.dw.gameShopBackEnd.model.Purchase;
 import com.dw.gameShopBackEnd.repository.GameShopRepository;
+import com.dw.gameShopBackEnd.repository.PurchaseRepository;
 import com.dw.gameShopBackEnd.service.GameShopService;
 
 @Service
 public class GameShopServiceImpl implements GameShopService{
 	
 	private GameShopRepository gameShopRepository;
+	private PurchaseRepository purchaseRepository;
 	
 	@Autowired
-	public GameShopServiceImpl(GameShopRepository gameShopRepository) {
+	public GameShopServiceImpl(GameShopRepository gameShopRepository,
+			PurchaseRepository purchaseRepository) {
 		super();
 		this.gameShopRepository = gameShopRepository;
+		this.purchaseRepository = purchaseRepository;
 	}
 
 	@Override
@@ -53,4 +58,24 @@ public class GameShopServiceImpl implements GameShopService{
 		gameShopRepository.deleteById(id);
 	}
 
+	@Override
+	public Purchase savePurchase(Purchase purchase) {
+		return purchaseRepository.save(purchase);
+	}
+
+	@Override
+	public List<Purchase> getAllPurchase() {
+		return purchaseRepository.findAll();
+	}
+
 }
+
+
+
+
+
+
+
+
+
+

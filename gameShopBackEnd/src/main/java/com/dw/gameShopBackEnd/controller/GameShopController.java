@@ -1,5 +1,6 @@
 package com.dw.gameShopBackEnd.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dw.gameShopBackEnd.model.Game;
+import com.dw.gameShopBackEnd.model.Purchase;
 import com.dw.gameShopBackEnd.service.GameShopService;
 
 @RestController
@@ -40,7 +42,6 @@ public class GameShopController {
 	
 	@GetMapping()
 	public ResponseEntity<List<Game>> getAllGames() {
-		System.out.println("request from FrontEnd");
 		return new ResponseEntity<List<Game>>(
 				gameShopService.getAllGames(), HttpStatus.OK);
 	}
@@ -62,6 +63,28 @@ public class GameShopController {
 	public ResponseEntity<String> deleteGameById(@PathVariable long id) {
 		return new ResponseEntity<String>(
 				"Successfully deleted!", HttpStatus.OK);
+	}
+	
+	@PostMapping("purchase")
+	public ResponseEntity<Purchase> savePurchase(@RequestBody Purchase purchase) {
+		return new ResponseEntity<Purchase>(
+				gameShopService.savePurchase(purchase), HttpStatus.OK);
+	}
+	
+	@PostMapping("purchaselist")
+	public ResponseEntity<List<Purchase>> savePurchaseList(
+			@RequestBody List<Purchase> purchaseList) {
+		List<Purchase> savedPurchaseList = new ArrayList<Purchase>();
+		for (Purchase purchase : purchaseList) {
+			savedPurchaseList.add(gameShopService.savePurchase(purchase));
+		}
+		return new ResponseEntity<List<Purchase>>(savedPurchaseList, HttpStatus.OK);
+	}
+	
+	@GetMapping("purchase")
+	public ResponseEntity<List<Purchase>> getAllPurchase() {
+		return new ResponseEntity<List<Purchase>>(
+				gameShopService.getAllPurchase(), HttpStatus.OK);
 	}
 	
 }
