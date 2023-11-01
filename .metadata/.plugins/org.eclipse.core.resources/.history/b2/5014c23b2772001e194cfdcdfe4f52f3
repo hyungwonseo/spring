@@ -1,8 +1,0 @@
-package com.dw.firstapp.game;
-
-public class AppGaming {
-	
-	public static void main(String[] args) {
-		
-	}
-}

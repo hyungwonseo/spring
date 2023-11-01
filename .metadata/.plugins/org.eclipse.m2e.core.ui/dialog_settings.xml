@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\admin\Documents\myproject\spring\jdbcproject"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\gameShopBackEnd"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\firstapp"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\test"/>
@@ -18,5 +19,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="-1080"/>
+		<item key="y" value="184"/>
 	</section>
 </section>
