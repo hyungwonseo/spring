@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.dw.securityproject.common.dto.BaseResponse;
 import com.dw.securityproject.common.status.ResultCode;
@@ -14,6 +16,8 @@ import com.dw.securityproject.common.status.ResultCode;
 @ControllerAdvice
 public class CustomExceptionHandler {
 	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	@ResponseBody
 	protected ResponseEntity<BaseResponse<Map<String, String>>> 
 		handleValidationExceptions(MethodArgumentNotValidException ex) {
 		Map<String, String> errors = new HashMap<String, String>();

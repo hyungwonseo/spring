@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.dw.securityproject.common.dto.BaseResponse;
+import com.dw.securityproject.common.status.ResultCode;
 import com.dw.securityproject.member.dto.MemberDto;
 import com.dw.securityproject.member.service.MemberService;
 
@@ -24,8 +26,11 @@ public class MemberController {
 	}
 	
 	@PostMapping("signup")
-	public ResponseEntity<String> signUp(@RequestBody @Valid MemberDto memberDto) {
-		return new ResponseEntity<String>(memberService.signUp(memberDto),
+	public ResponseEntity<BaseResponse<Void>> signUp(@RequestBody @Valid MemberDto memberDto) {
+		return new ResponseEntity<BaseResponse<Void>>(
+				new BaseResponse<Void>(ResultCode.SUCCESS.name(),
+				null,
+				memberService.signUp(memberDto)),
 				HttpStatus.CREATED);
 	}
 	
