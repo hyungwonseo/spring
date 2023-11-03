@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.dw.securityproject.common.exception.InvalidInputException;
 import com.dw.securityproject.member.dto.MemberDto;
+import com.dw.securityproject.member.dto.MemberLoginDto;
 import com.dw.securityproject.member.model.Member;
 import com.dw.securityproject.member.repository.MemberRepository;
 
@@ -41,6 +42,15 @@ public class MemberService {
 		// 리포지토리 저장
 		memberRepository.save(member);
 		return "회원가입이 완료되었습니다.";
+	}
+	
+	public String login(MemberLoginDto memberLoginDto) {
+		Member member = memberRepository.findByLoginId(memberLoginDto.getLoginId());
+        if (member != null && member.getPassword().matches(memberLoginDto.getPassword())) {
+            return member.getLoginId();
+        } else {
+            throw new InvalidInputException("loginId", "ID 또는 Password가 올바르지 않습니다");
+        }
 	}
 }
 
