@@ -1,5 +1,0 @@
-package com.dw.employeeManagement.repository;
-
-public interface EmployeeRepository {
-
-}

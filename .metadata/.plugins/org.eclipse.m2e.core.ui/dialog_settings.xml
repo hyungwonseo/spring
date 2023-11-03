@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\admin\Documents\myproject\spring\securityproject"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\jdbcproject"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\gameShopBackEnd"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\firstapp"/>

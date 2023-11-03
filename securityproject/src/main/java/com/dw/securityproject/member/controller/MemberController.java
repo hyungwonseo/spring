@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dw.securityproject.member.dto.MemberDto;
 import com.dw.securityproject.member.service.MemberService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/api/member")
 public class MemberController {
@@ -22,7 +24,7 @@ public class MemberController {
 	}
 	
 	@PostMapping("signup")
-	public ResponseEntity<String> signUp(@RequestBody MemberDto memberDto) {
+	public ResponseEntity<String> signUp(@RequestBody @Valid MemberDto memberDto) {
 		return new ResponseEntity<String>(memberService.signUp(memberDto),
 				HttpStatus.CREATED);
 	}
