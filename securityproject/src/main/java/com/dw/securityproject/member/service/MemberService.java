@@ -3,6 +3,7 @@ package com.dw.securityproject.member.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.dw.securityproject.common.exception.InvalidInputException;
 import com.dw.securityproject.member.dto.MemberDto;
 import com.dw.securityproject.member.model.Member;
 import com.dw.securityproject.member.repository.MemberRepository;
@@ -24,7 +25,8 @@ public class MemberService {
 		// ID 중복 검사
 		Member member = memberRepository.findByLoginId(memberDto.getLoginId());
 		if (member != null) {
-			return "이미 등록된 ID입니다.";
+			//return "이미 등록된 ID입니다.";
+			throw new InvalidInputException("loginId", "이미 등록된 ID입니다.");
 		}		
 		// Member 객체 생성
 		member = new Member(
