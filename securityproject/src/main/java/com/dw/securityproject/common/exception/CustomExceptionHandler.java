@@ -38,8 +38,11 @@ public class CustomExceptionHandler {
 	@ExceptionHandler(InvalidInputException.class)
     protected ResponseEntity<BaseResponse<Map<String, String>>>
     invalidInputException(InvalidInputException ex) {
-        Map<String, String> errors = Map.of(ex.getFieldName(), (ex.getMessage() != null ? ex.getMessage() : "Not Exception Message"));
-        return new ResponseEntity<>(new BaseResponse<>(ResultCode.ERROR.name(), errors, ResultCode.ERROR.getMsg()), HttpStatus.BAD_REQUEST);
+        Map<String, String> errors = Map.of(ex.getFieldName(), 
+        		(ex.getMessage() != null ? ex.getMessage() : "Not Exception Message"));
+        return new ResponseEntity<>(new BaseResponse<>(
+        		ResultCode.ERROR.name(), errors, ResultCode.ERROR.getMsg()), 
+        		HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(Exception.class)
