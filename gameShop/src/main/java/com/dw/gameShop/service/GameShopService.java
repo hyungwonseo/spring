@@ -1,9 +1,9 @@
-package com.dw.gameShopBackEnd.service;
+package com.dw.gameShop.service;
 
 import java.util.List;
 
-import com.dw.gameShopBackEnd.model.Game;
-import com.dw.gameShopBackEnd.model.Purchase;
+import com.dw.gameShop.model.Game;
+import com.dw.gameShop.model.Purchase;
 
 public interface GameShopService {
 	

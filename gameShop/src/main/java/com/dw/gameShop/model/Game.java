@@ -1,4 +1,4 @@
-package com.dw.gameShopBackEnd.model;
+package com.dw.gameShop.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

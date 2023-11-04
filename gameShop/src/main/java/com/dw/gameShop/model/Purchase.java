@@ -1,4 +1,4 @@
-package com.dw.gameShopBackEnd.model;
+package com.dw.gameShop.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

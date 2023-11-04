@@ -1,15 +1,15 @@
-package com.dw.gameShopBackEnd.service.impl;
+package com.dw.gameShop.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dw.gameShopBackEnd.model.Game;
-import com.dw.gameShopBackEnd.model.Purchase;
-import com.dw.gameShopBackEnd.repository.GameShopRepository;
-import com.dw.gameShopBackEnd.repository.PurchaseRepository;
-import com.dw.gameShopBackEnd.service.GameShopService;
+import com.dw.gameShop.model.Game;
+import com.dw.gameShop.model.Purchase;
+import com.dw.gameShop.repository.GameShopRepository;
+import com.dw.gameShop.repository.PurchaseRepository;
+import com.dw.gameShop.service.GameShopService;
 
 @Service
 public class GameShopServiceImpl implements GameShopService{

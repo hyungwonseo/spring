@@ -1,4 +1,4 @@
-package com.dw.gameShopBackEnd.controller;
+package com.dw.gameShop.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dw.gameShopBackEnd.model.Game;
-import com.dw.gameShopBackEnd.model.Purchase;
-import com.dw.gameShopBackEnd.service.GameShopService;
+import com.dw.gameShop.model.Game;
+import com.dw.gameShop.model.Purchase;
+import com.dw.gameShop.service.GameShopService;
 
 @RestController
 @RequestMapping("/products")

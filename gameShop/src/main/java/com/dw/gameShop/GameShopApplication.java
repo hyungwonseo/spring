@@ -1,13 +1,13 @@
-package com.dw.gameShopBackEnd;
+package com.dw.gameShop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GameShopBackEndApplication {
+public class GameShopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GameShopBackEndApplication.class, args);
+		SpringApplication.run(GameShopApplication.class, args);
 	}
 
 }
