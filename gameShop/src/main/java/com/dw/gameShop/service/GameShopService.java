@@ -14,4 +14,5 @@ public interface GameShopService {
     void deleteGameById(long id);
     Purchase savePurchase(Purchase purchase);
     List<Purchase> getAllPurchase();
+    List<Purchase> getPurchaseById(String loginId);
 }

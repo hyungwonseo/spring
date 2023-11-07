@@ -68,6 +68,11 @@ public class GameShopServiceImpl implements GameShopService{
 		return purchaseRepository.findAll();
 	}
 
+	@Override
+	public List<Purchase> getPurchaseById(String loginId) {
+		return purchaseRepository.findByLoginId(loginId);
+	}
+
 }
 
 

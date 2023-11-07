@@ -1,5 +1,6 @@
 package com.dw.gameShop.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,16 +19,20 @@ public class Purchase {
 	@ManyToOne
 	private Game game;
 	
+	@Column(name="login_id")
+	private String loginId;
+	
 	private int quantity;
 
 	public Purchase() {
 		super();
 	}
 
-	public Purchase(long id, Game game, int quantity) {
+	public Purchase(long id, Game game, String loginId, int quantity) {
 		super();
 		this.id = id;
 		this.game = game;
+		this.loginId = loginId;
 		this.quantity = quantity;
 	}
 
@@ -45,6 +50,14 @@ public class Purchase {
 
 	public void setGame(Game game) {
 		this.game = game;
+	}
+
+	public String getLoginId() {
+		return loginId;
+	}
+
+	public void setLoginId(String loginId) {
+		this.loginId = loginId;
 	}
 
 	public int getQuantity() {

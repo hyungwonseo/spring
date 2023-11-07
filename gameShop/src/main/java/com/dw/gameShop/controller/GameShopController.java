@@ -87,6 +87,12 @@ public class GameShopController {
 				gameShopService.getAllPurchase(), HttpStatus.OK);
 	}
 	
+	@GetMapping("purchase/{loginId}")
+	public ResponseEntity<List<Purchase>> getPurchaseById(@PathVariable String loginId) {
+		return new ResponseEntity<List<Purchase>>(
+				gameShopService.getPurchaseById(loginId), HttpStatus.OK);
+	}
+	
 }
 
 
