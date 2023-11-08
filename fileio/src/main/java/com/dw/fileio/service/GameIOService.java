@@ -33,8 +33,9 @@ public class GameIOService {
     public void processJsonData(Resource fileResource) {
         try {
             InputStream inputStream = fileResource.getInputStream();
-            List<Game> dataList = readJsonData(inputStream);
+            
             if (gameRepository.count() == 0) {
+            	List<Game> dataList = readJsonData(inputStream);
                 gameRepository.saveAll(dataList);
             } else {
                 System.out.println("테이블에 데이터가 있을 경우 저장하지 않습니다");
