@@ -2,12 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\admin\Documents\myproject\spring\gameShop"/>
 			<item value="C:\Users\admin\Documents\myproject\spring"/>
+			<item value="C:\Users\admin\Documents\myproject\spring\firstapp"/>
+			<item value="C:\Users\admin\Documents\myproject\spring\gameShop"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\securityproject"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\jdbcproject"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\gameShopBackEnd"/>
-			<item value="C:\Users\admin\Documents\myproject\spring\firstapp"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\test"/>
 		</list>
 		<list key="projectNameTemplate">
