@@ -8,6 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.dw.jwtauthority.exception.UserNotFoundException;
 import com.dw.jwtauthority.model.User;
 import com.dw.jwtauthority.repository.UserRepository;
 
@@ -27,7 +28,7 @@ public class CustomUserDetailsService implements UserDetailsService {
    public UserDetails loadUserByUsername(final String username) {
       return userRepository.findOneWithAuthoritiesByUsername(username)
          .map(user -> createUser(username, user))
-         .orElseThrow(() -> new UsernameNotFoundException(
+         .orElseThrow(() -> new UserNotFoundException(
         		 username + " -> 데이터베이스에서 찾을 수 없습니다."));
    }
 
