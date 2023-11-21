@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="com.dw.jdbcproject.repository.MemberRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
-    <fullyQualifiedTypeName name="com.dw.jdbcproject.model.Member"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.simple.SimpleJdbcInsert"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.MapSqlParameterSource"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
@@ -55,9 +43,21 @@
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="com.dw.securityproject.member.dto.MemberLoginDto"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="com.dw.gameShop.model.Purchase"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.dto.ErrorDto"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UsernameNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.exception.UserNotFoundException"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.exception.DuplicateMemberException"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.model.Authority"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.model.User"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.util.SecurityUtil"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.exception.NotFoundMemberException"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.service.UserService"/>
+    <fullyQualifiedTypeName name="com.dw.jwtauthority.dto.UserDto"/>
 </qualifiedTypeNameHistroy>
