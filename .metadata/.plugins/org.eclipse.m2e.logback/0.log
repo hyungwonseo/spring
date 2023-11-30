@@ -4688,3 +4688,152 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2023-11-20 09:54:50,361 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-11-20 15:41:16,236 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-11-21 10:06:58,710 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-30 10:17:53,572 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-30 10:18:10,815 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-30 10:18:40,485 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:fileio:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\fileio\pom.xml.
+2023-11-30 10:18:41,904 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:firstapp:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\firstapp\pom.xml.
+2023-11-30 10:18:43,622 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:gameShopBackEnd:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\gameShop\pom.xml.
+2023-11-30 10:18:44,060 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:jdbcproject:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\jdbcproject\pom.xml.
+2023-11-30 10:18:44,484 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:jwt-authority:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\jwt-authority\pom.xml.
+2023-11-30 10:18:45,351 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:securityproject:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\securityproject\pom.xml.
+2023-11-30 10:18:45,707 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:spring-security:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\spring-security\pom.xml.
+2023-11-30 10:18:51,878 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fileio/src/main/java
+2023-11-30 10:18:51,879 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/main/resources
+2023-11-30 10:18:51,879 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/main/resources
+2023-11-30 10:18:51,880 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fileio/src/test/java
+2023-11-30 10:18:51,881 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/test/resources
+2023-11-30 10:18:51,881 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:52,623 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gameShop/src/main/java
+2023-11-30 10:18:52,623 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/main/resources
+2023-11-30 10:18:52,624 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/main/resources
+2023-11-30 10:18:52,624 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gameShop/src/test/java
+2023-11-30 10:18:52,624 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/test/resources
+2023-11-30 10:18:52,624 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:53,395 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt-authority/src/main/java
+2023-11-30 10:18:53,395 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/main/resources
+2023-11-30 10:18:53,395 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/main/resources
+2023-11-30 10:18:53,396 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt-authority/src/test/java
+2023-11-30 10:18:53,396 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/test/resources
+2023-11-30 10:18:53,396 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:54,312 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstapp/src/main/java
+2023-11-30 10:18:54,312 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/main/resources
+2023-11-30 10:18:54,312 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/main/resources
+2023-11-30 10:18:54,312 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstapp/src/test/java
+2023-11-30 10:18:54,313 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/test/resources
+2023-11-30 10:18:54,313 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:55,069 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jdbcproject/src/main/java
+2023-11-30 10:18:55,069 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/main/resources
+2023-11-30 10:18:55,069 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/main/resources
+2023-11-30 10:18:55,070 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jdbcproject/src/test/java
+2023-11-30 10:18:55,070 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/test/resources
+2023-11-30 10:18:55,070 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:55,823 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /securityproject/src/main/java
+2023-11-30 10:18:55,823 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/main/resources
+2023-11-30 10:18:55,823 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/main/resources
+2023-11-30 10:18:55,824 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /securityproject/src/test/java
+2023-11-30 10:18:55,824 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/test/resources
+2023-11-30 10:18:55,824 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:56,521 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security/src/main/java
+2023-11-30 10:18:56,521 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/main/resources
+2023-11-30 10:18:56,522 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/main/resources
+2023-11-30 10:18:56,522 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security/src/test/java
+2023-11-30 10:18:56,522 [Worker-20: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/test/resources
+2023-11-30 10:18:56,522 [Worker-20: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:18:56,963 [Worker-20: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 7 project(s) in 22 sec
+2023-11-30 10:18:57,706 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-30 10:19:01,249 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:fileio:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\fileio\pom.xml.
+2023-11-30 10:19:01,885 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:firstapp:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\firstapp\pom.xml.
+2023-11-30 10:19:02,159 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:gameShopBackEnd:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\gameShop\pom.xml.
+2023-11-30 10:19:02,432 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:jdbcproject:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\jdbcproject\pom.xml.
+2023-11-30 10:19:02,693 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:jwt-authority:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\jwt-authority\pom.xml.
+2023-11-30 10:19:03,110 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:securityproject:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\securityproject\pom.xml.
+2023-11-30 10:19:03,417 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:spring-security:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\spring-security\pom.xml.
+2023-11-30 10:19:07,767 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fileio/src/main/java
+2023-11-30 10:19:07,768 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/main/resources
+2023-11-30 10:19:07,768 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/main/resources
+2023-11-30 10:19:07,768 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fileio/src/test/java
+2023-11-30 10:19:07,768 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fileio/src/test/resources
+2023-11-30 10:19:07,768 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:08,370 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstapp/src/main/java
+2023-11-30 10:19:08,370 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/main/resources
+2023-11-30 10:19:08,370 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/main/resources
+2023-11-30 10:19:08,371 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstapp/src/test/java
+2023-11-30 10:19:08,371 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstapp/src/test/resources
+2023-11-30 10:19:08,371 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:08,951 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gameShop/src/main/java
+2023-11-30 10:19:08,951 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/main/resources
+2023-11-30 10:19:08,952 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/main/resources
+2023-11-30 10:19:08,952 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gameShop/src/test/java
+2023-11-30 10:19:08,952 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gameShop/src/test/resources
+2023-11-30 10:19:08,952 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:09,527 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jdbcproject/src/main/java
+2023-11-30 10:19:09,527 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/main/resources
+2023-11-30 10:19:09,527 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/main/resources
+2023-11-30 10:19:09,528 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jdbcproject/src/test/java
+2023-11-30 10:19:09,528 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jdbcproject/src/test/resources
+2023-11-30 10:19:09,528 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:10,050 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt-authority/src/main/java
+2023-11-30 10:19:10,050 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/main/resources
+2023-11-30 10:19:10,050 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/main/resources
+2023-11-30 10:19:10,051 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt-authority/src/test/java
+2023-11-30 10:19:10,051 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt-authority/src/test/resources
+2023-11-30 10:19:10,051 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /securityproject/src/main/java
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/main/resources
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/main/resources
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /securityproject/src/test/java
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /securityproject/src/test/resources
+2023-11-30 10:19:10,795 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:11,383 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security/src/main/java
+2023-11-30 10:19:11,384 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/main/resources
+2023-11-30 10:19:11,384 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/main/resources
+2023-11-30 10:19:11,384 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security/src/test/java
+2023-11-30 10:19:11,384 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security/src/test/resources
+2023-11-30 10:19:11,384 [Worker-3: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-20', falling back to workspace default
+2023-11-30 10:19:12,507 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 7 poms: local refresh takes 0.00 sec, refresh facades takes 9.00 sec, update config takes 4.00 sec 
+2023-11-30 10:19:12,842 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:12,859 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:12,868 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\fileio\src\test\resources
+2023-11-30 10:19:13,412 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:13,425 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-11-30 10:19:13,431 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\firstapp\src\test\resources
+2023-11-30 10:19:13,625 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:13,635 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:13,639 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\gameShop\src\test\resources
+2023-11-30 10:19:13,812 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:13,825 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:13,830 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\jdbcproject\src\test\resources
+2023-11-30 10:19:14,003 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,015 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,019 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\jwt-authority\src\test\resources
+2023-11-30 10:19:14,224 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,235 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,239 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\securityproject\src\test\resources
+2023-11-30 10:19:14,444 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,455 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:14,459 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\spring-security\src\test\resources
+2023-11-30 10:19:25,044 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:19:25,055 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:19:25,060 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\gameShop\src\test\resources
+2023-11-30 10:20:32,091 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dw:gameShopBackEnd:0.0.1-SNAPSHOT @ C:\Users\admin\Documents\myproject\spring\gameShop\pom.xml.
+2023-11-30 10:20:33,217 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:20:33,219 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:20:33,223 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\gameShop\src\test\resources
+2023-11-30 10:20:42,652 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:20:42,661 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:20:42,667 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\fileio\src\test\resources
+2023-11-30 10:20:52,834 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:20:52,845 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2023-11-30 10:20:52,854 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\firstapp\src\test\resources
+2023-11-30 10:21:07,417 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:21:07,428 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:21:07,432 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\jdbcproject\src\test\resources
+2023-11-30 10:21:17,304 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:21:17,313 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:21:17,316 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\jwt-authority\src\test\resources
+2023-11-30 10:21:30,774 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:21:30,784 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:21:30,787 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\securityproject\src\test\resources
+2023-11-30 10:21:41,033 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-30 10:21:41,040 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-30 10:21:41,044 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\admin\Documents\myproject\spring\spring-security\src\test\resources
