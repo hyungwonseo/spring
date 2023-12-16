@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/seo/문서/Github/spring/jwt-authority"/>
 			<item value="C:\Users\admin\Documents\myproject\spring"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\firstapp"/>
 			<item value="C:\Users\admin\Documents\myproject\spring\gameShop"/>
