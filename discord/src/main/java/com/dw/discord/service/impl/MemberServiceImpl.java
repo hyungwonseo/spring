@@ -3,6 +3,8 @@ package com.dw.discord.service.impl;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+import com.dw.discord.enumstatus.ResultCode;
+import com.dw.discord.exception.InvalidRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,10 +34,7 @@ public class MemberServiceImpl implements MemberService{
 	public BaseResponse<Void> signUp(MemberDto memberDto) {
 		Member member = memberRepository.findByLoginId(memberDto.getLoginId());
 		if (member != null) {
-			return new BaseResponse<Void>(
-					"FAIL",
-					null,
-					"이미 등록된 ID입니다");
+			throw new InvalidRequestException(memberDto.getLoginId(), "이미 등록된 ID입니다");
 		}		
 		member = new Member();
 		member.setId(null);
@@ -48,8 +47,8 @@ public class MemberServiceImpl implements MemberService{
 		member.setPassword(memberDto.getPassword());
 		
 		memberRepository.save(member);
-		return  new BaseResponse<Void>(
-				"SUCCESS",
+		return  new BaseResponse<>(
+				ResultCode.SUCCESS.name(),
 				null,
 				"회원가입이 완료되었습니다");
 	}
@@ -59,15 +58,12 @@ public class MemberServiceImpl implements MemberService{
 		Member member = memberRepository.findByLoginId(memberLoginDto.getLoginId());
 		if (member != null && 
 				member.getPassword().matches(memberLoginDto.getPassword())) {
-			return new BaseResponse<Void>(
-					"SUCCESS",
+			return new BaseResponse<>(
+					ResultCode.SUCCESS.name(),
 					null,
 					"로그인이 성공했습니다");
 		}else {
-			return new BaseResponse<Void>(
-					"FAIL",
-					null,
-					"ID 또는 Password가 올바르지 않습니다");
+			throw new InvalidRequestException("Invalid ID / Password", "ID 또는 Password가 올바르지 않습니다");
 		}		
 	}
 }

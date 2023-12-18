@@ -24,7 +24,7 @@ public class Board {
 	@Column(nullable = false)
 	private String title;
 	
-	@Column(nullable = false, length = 1500)
+	@Column(nullable = false, length = 3000)
 	private String text;
 	
 	@Column(nullable = false)
