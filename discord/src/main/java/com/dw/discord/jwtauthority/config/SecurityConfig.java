@@ -20,7 +20,6 @@ import static org.apache.tomcat.jni.SSLConf.apply;
 @EnableMethodSecurity
 public class SecurityConfig {
     private final TokenProvider tokenProvider;
-    //    private final CorsFilter corsFilter;
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
     private final JwtAccessDeniedHandler jwtAccessDeniedHandler;
 
